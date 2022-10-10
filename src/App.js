@@ -61,7 +61,9 @@ function App() {
     {id : 6 , photo : fifth6 },
   ])
 
-  const [shopProducts , setShopProducts] = useState([
+
+  // const [shopProducts , setShopProducts] = useState([
+  const [shopProducts ] = useState([
     {id : 1 , type : 'Hood' , price : 100 , photo : shopC1 , count : 0 , avalibale :20},
     {id : 2 , type : 'Shirt ' , price : 120 , photo : shopC2 , count : 0 , avalibale :5},
     {id : 3 , type : 'Shirt ' , price : 150 , photo : shopC3 , count : 0 , avalibale :14},
