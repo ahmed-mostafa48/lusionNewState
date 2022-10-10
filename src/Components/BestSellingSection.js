@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Card, CardBody, CardText, CardTitle, Container } from 'reactstrap';
+import { Container } from 'reactstrap';
 import BestSellingCard from './BestSellingCard';
 import '../Style/BestSellingSection.css'
 
