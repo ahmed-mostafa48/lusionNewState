@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class NotFound extends Component {
-  render() {
+function NotFound (){
+
     return (
       <div>
         <h1 className='text-center mt-5'>Page Not Found</h1>
       </div>
     )
-  }
+  
 }
 
 
