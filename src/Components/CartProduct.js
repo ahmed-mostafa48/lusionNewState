@@ -12,7 +12,7 @@ function CartProduct(props) {
 
     <CardBody className=' d-flex flex-column align-items-center justify-content-around text-dark'>
         <CardImg alt="photo" src={props.cartProduct.photo}  style={{width: '9rem'}} className='cart-img' />
-        <CardText tag="h5" className='cart-tex' >Name : {props.cartProduct.type}</CardText>
+        <CardText tag="h5" className='cart-tex' >Name : {props.cartProduct.type.length < 10 ? props.cartProduct.type : props.cartProduct.brand}</CardText>
         <CardText tag="h5" className={ props.cartProduct.avalibale > 0 ? 'text-success cart-tex' : 'text-danger cart-tex'} >In stock : {props.cartProduct.avalibale}</CardText>
         <CardText tag="h5" className='cart-tex' >Price : {props.cartProduct.price}$</CardText>
         <CardText tag="h5" className='cart-tex' >Count : {props.cartProduct.count}</CardText>

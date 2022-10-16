@@ -10,13 +10,15 @@ function BestSellingCard(props) {
   return (
     <Card style={{width: '15rem'}} className='p-0  col-lg-3 col-md-4 col-sm-6 col-6 '>
     <CardImg alt="photo" src={props.product.photo} />
-        <CardBody className='text-muted'>
+        <CardBody className='text-muted best-body'>
             {/* <CardText tag="h6" className='mb-2' style={{fontSize: '0.8rem'}}>{props.product.type}</CardText> */}
             <CardText tag="h6" className='mb-2 tx-best' >{props.product.type}</CardText>
-
-            <div className='d-flex align-items-center justify-content-between best'>
             <CardText tag="h6" className='tx-best'>{`${(props.product.price).toFixed(2)}$`}</CardText>
-            <Button color="dark" outline  size="sm"  onClick={()=>navigate('/Shop')}  >Shop Now</Button>
+
+            <div className='d-flex justify-content-between best'>
+            <Button color="dark" size='sm'  outline   className='bt-details1' onClick={()=>navigate('/ProductDetails',{state : {shopProduct :props.product }})} >Details</Button>
+
+            <Button color="dark" outline  size="sm" className='bt-details1 bt-details2'  onClick={()=>navigate('/Shop')}  >Shop Now</Button>
             </div>
 
         </CardBody>

@@ -1,0 +1,63 @@
+
+.details-4{
+    font-size: calc(1.275rem + .3vw)!important;
+}
+
+.details-5{
+    font-size: 1.25rem!important;
+}
+.details-6{
+    font-size: 1rem!important;
+}
+
+@media screen  and (max-width:575px) {
+    .prod-detail{
+        flex-direction: column !important;
+        align-items: center !important;
+
+    }
+
+    .details-text{
+        align-items: center !important;
+        margin-top: 15px !important;
+        padding: 0 !important;
+    }
+
+    .details-keys{
+        font-size: 20px !important;
+    }
+
+    .details-4 , .details-5 , .details-6 {
+        font-size: 15px !important;
+    }
+}
+
+
+@media screen  and (max-width:206px) {
+
+    .details-4 , .details-5 , .details-6 {
+        font-size: 12px !important;
+    }
+
+
+    .details-keys{
+        font-size: 15px !important;
+    }
+}
+
+@media screen  and (max-width:214px) {
+
+    .details-tit{
+        font-size: 13px !important;
+
+    }
+}
+
+@media screen  and (max-width:157px) {
+
+    .bt-shop-dt{
+        font-size: 12px !important;
+
+    }
+
+}

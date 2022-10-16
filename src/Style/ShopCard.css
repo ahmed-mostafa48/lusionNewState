@@ -1,15 +1,36 @@
-@media screen  and (max-width:174px) {
-    .card-b{
-        display: flex ;
-        flex-direction: column ;
-        align-items: center ;
-        justify-content: space-around;
+@media screen  and (max-width:216px) {
+
+    .shop-card-btns{
+        flex-direction: column !important;
+        align-items: flex-start !important;
     }
+    
+    .bt-details{
+        margin-bottom: 6px;
+        font-size: 12px !important;
+    }
+
+    .card-b{
+        align-items: center !important;
+        justify-content: space-around !important;
+        align-items: flex-start !important;
+    }
+
+}
+
+@media screen  and (max-width:174px) {
+    /* .card-b{ */
+        /* display: flex ;
+        flex-direction: column ; */
+        /* align-items: center !important;
+        justify-content: space-around !important;
+    } */
 
     .bt{
         margin-top: 20px;
     }
 }
+
 
 
 @media screen  and (max-width:168px) {

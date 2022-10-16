@@ -4,10 +4,28 @@
     }
 }
 
+@media screen and (max-width:196px) {
 
-@media screen and (max-width:169px) {
+    .bt-details1{
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width:180px) {
     .best{
        flex-direction: column;
+       align-items: flex-start !important;
+
+    }
+    .best-body{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .bt-details2{
+        margin-top: 10px;
     }
 
     .tx-best{

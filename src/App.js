@@ -33,6 +33,7 @@ import Shop from "./Components/Shop";
 import Cart from "./Components/Cart";
 import NotFound from "./Components/NotFound";
 import './Style/App.css'
+import ProductDetails from './Components/ProductDetails'
 
 
 function App() {
@@ -45,12 +46,20 @@ function App() {
     {id : 4 , type : 'Shoes', items : 8  , photo : s4},
   ])
 
+  // const [bestSellProducts] = useState([
+  //   {id : 1 , type : 'Quilted Gilet With Hood' , price : 150 , photo : t1 },
+  //   {id : 2 , type : 'Quilted Gilet With Hood' , price : 110 , photo : t2 },
+  //   {id : 3 , type : 'Quilted Gilet With Hood' , price : 200 , photo : t3 },
+  //   {id : 4 , type : 'Quilted Gilet With Hood' , price : 250 , photo : t4 },
+  // ])
+
   const [bestSellProducts] = useState([
-    {id : 1 , type : 'Quilted Gilet With Hood' , price : 150 , photo : t1 },
-    {id : 2 , type : 'Quilted Gilet With Hood' , price : 110 , photo : t2 },
-    {id : 3 , type : 'Quilted Gilet With Hood' , price : 200 , photo : t3 },
-    {id : 4 , type : 'Quilted Gilet With Hood' , price : 250 , photo : t4 },
-  ])
+  {id : 10 , type : 'Quilted Gilet With Hood' , price : 150 , photo : t1, count : 0 , avalibale :10, brand : 'Wrangler' ,sizes : [ 'L' , 'XL'], colors : ['blush','rouge','white'] },
+  {id : 11 , type : 'Quilted Gilet With Hood' , price : 110 , photo : t2 , count : 0 , avalibale :8, brand : 'Woodland' ,sizes : [ 'M' , 'L'], colors : ['white & black','bronze & white'] },
+  {id : 12 , type : 'Quilted Gilet With Hood' , price : 200 , photo : t3 , count : 0 , avalibale :7, brand : 'Reebok' ,sizes : [ 'S' , 'M'], colors : ['white','gray','silver'] },
+  {id : 13 , type : 'Quilted Gilet With Hood' , price : 250 , photo : t4 , count : 0 , avalibale :4, brand : 'Levi’s' ,sizes : [ 'S', 'M' , 'L'], colors : ['white','black','denim'] },
+])
+
 
   const [styleProducts] = useState([
     {id : 1 , photo : fifth1 },
@@ -64,19 +73,20 @@ function App() {
 
   // const [shopProducts , setShopProducts] = useState([
   const [shopProducts ] = useState([
-    {id : 1 , type : 'Hood' , price : 100 , photo : shopC1 , count : 0 , avalibale :20},
-    {id : 2 , type : 'Shirt ' , price : 120 , photo : shopC2 , count : 0 , avalibale :5},
-    {id : 3 , type : 'Shirt ' , price : 150 , photo : shopC3 , count : 0 , avalibale :14},
-    {id : 4 , type : 'shirt' , price : 210 , photo : shopC4 , count : 0 , avalibale :9},
-    {id : 5 , type : 'shirt' , price : 200 , photo : shopC5 , count : 0 , avalibale :3},
-    {id : 6 , type : 'shirt' , price : 250 , photo : shopC6 , count : 0 , avalibale :8},
-    {id : 7 , type : 'Jeans' , price : 320 , photo : shopC7 , count : 0 , avalibale :20},
-    {id : 8 , type : 'Jeans' , price : 350 , photo : shopC8 , count : 0 , avalibale :7},
-    {id : 9 , type : 'Hood' , price : 105 , photo : shopC1 , count : 0 , avalibale :20},
+    {id : 1 , type : 'Hood' , price : 100 , photo : shopC1 , count : 0 , avalibale :20, brand : 'wrangler' ,sizes : ['M' , 'L'] , colors : ['College Navy','Yankees Blue','white','black'] }, 
+    {id : 2 , type : 'Shirt ' , price : 120 , photo : shopC2 , count : 0 , avalibale :5, brand : 'HUGO BOSS' ,sizes : ['S' , 'M' , 'L'], colors : ['purple & white','purple & black','YInMn Blue & black'] },
+    {id : 3 , type : 'Shirt ' , price : 150 , photo : shopC3 , count : 0 , avalibale :14, brand : 'UNIQLO' ,sizes : ['M' , 'L','XL'], colors : ['gray','black','red'] },
+    {id : 4 , type : 'shirt' , price : 210 , photo : shopC4 , count : 0 , avalibale :9, brand : 'Twillory' ,sizes : ['S' , 'M' , 'L'], colors : ['purple','gray','white'] },
+    {id : 5 , type : 'shirt' , price : 200 , photo : shopC5 , count : 0 , avalibale :3, brand : 'Rhone' ,sizes : ['S' , 'M' ,'XL'], colors : ['gray & black' ,'denim & black','spruce & black', 'gray & white'] },
+    {id : 6 , type : 'shirt' , price : 250 , photo : shopC6 , count : 0 , avalibale :8, brand : 'Asket' ,sizes : ['XS' , 'L'], colors : ['black','white','aegean'] },
+    {id : 7 , type : 'Jeans' , price : 320 , photo : shopC7 , count : 0 , avalibale :20, brand : 'Ash & Erie' ,sizes : [ 'M' , 'L'], colors : ['white','black','silver'] },
+    {id : 8 , type : 'Jeans' , price : 350 , photo : shopC8 , count : 0 , avalibale :7, brand : 'Everlane' ,sizes : ['S' , 'M' , 'L'], colors : ['Alaskan Blue','UCLA Blue','Tall Ships Blue'] },
+    {id : 9 , type : 'Hood' , price : 105 , photo : shopC1 , count : 0 , avalibale :20, brand : 'Antigravity' ,sizes : ['S' , 'M'], colors : ['mocha','spruce','inddigo','ocean'] },
+    ])
 
-  ])
 
   
+
 
  const [cartProducts , setCartProducts] = useState([])
 
@@ -289,6 +299,7 @@ function App() {
           <Route path="/" element={<Home  homeProducts2={homeProducts2} bestSellProducts={bestSellProducts} styleProducts={styleProducts}/>} />
           <Route path="/Shop" element={<Shop shopProducts={shopProducts} addProduct={addProduct}  />} />    
           <Route path="/Cart" element={<Cart cartProducts={cartProducts} incrementProduct={incrementProduct} decrementProduct={decrementProduct} removeProduct={removeProduct} getTotalPrice={getTotalPrice}  getTotal={getTotal} total={total}  showLength={showLength} />} />   
+          <Route path="/ProductDetails" element={<ProductDetails addProduct={addProduct} />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       

@@ -22,7 +22,7 @@ function ShopLogo() {
             <CardImgOverlay className='d-flex flex-column align-items-center justify-content-center text-info'>
                 <CardTitle tag="h1" className='fw-bolder tx'>Shop</CardTitle>
                 {/* <CardText  tag="h3"><span className='text-white tx'>Home</span>/Shop</CardText> */}
-                <CardText tag="h4"  className='text-info '>
+                <CardText tag="h6"  className='text-info '>
                 <Link className='text-white text-decoration-none ' to='/' >Home</Link>  
                 /
                 <Link className='text-info text-decoration-none' to='/Shop' >Shop</Link>  

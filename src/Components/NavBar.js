@@ -51,7 +51,7 @@ function NavBar(props,args) {
 
 
 
-                <Link to='/Cart' className='d-flex flex-column'>
+                <Link to='/Cart' className='d-flex flex-column  text-decoration-none '>
                     {/* <Badge color={newProducts.length >0 ? 'success' : "danger"} pill className='mg text-center'>{newProducts.length}</Badge> */}
                     <Badge color={props.showLength() >0 ? 'success' : "danger"} pill className='mg text-center'>{props.showLength() }</Badge>
                     <FaCartPlus className='fs-4 text-info'/>
