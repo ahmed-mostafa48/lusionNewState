@@ -1,0 +1,166 @@
+
+
+@media screen  and (max-width:1199px) {
+
+    .mrg-dash{
+        margin-bottom: 30px ;
+    }
+
+}
+
+
+@media screen  and (max-width:670px) {
+
+    .txt3{
+        font-size: 15px;
+    }
+}
+
+@media screen  and (max-width:640px) {
+
+    .tree-txt{
+        font-size: 22px;
+    }
+    .txt3{
+        font-size: 13px;
+    }
+}
+
+@media screen  and (max-width:576px) {
+    .headtxt{
+        font-size: 20px;
+    }
+    .tree-txt{
+        font-size: 15px;
+    }
+    .txt2{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .txt3{
+        font-size: 10px;
+        font-weight: bold;
+
+    }
+}
+
+
+@media screen  and (max-width:510px) {
+    .headtxt{
+        font-size: 15px;
+    }
+    .tree-txt{
+        font-size: 12px;
+    }
+    .txt3{
+        font-size: 8px;
+        font-weight: bolder;
+
+    }
+}
+
+@media screen  and (max-width:380px) {
+    .v-btn{
+        flex-direction: column;
+    }
+
+    .tree-txt{
+        font-size: 10px;
+    }
+    .txt2{
+        font-size: 8px;
+        font-weight: bolder;
+
+    }
+    .txt3{
+        font-size: 5px;
+
+    }
+    .m-btn{
+        font-size: 12px !important;
+
+    }
+
+}
+
+@media screen  and (max-width:300px) {
+
+    .tree-txt{
+        font-size: 8px;
+        font-weight: bolder;
+
+    }
+
+    .m-btn{
+        font-size: 9px !important;
+
+    }
+}
+
+
+
+@media screen  and (max-width:260px) {
+
+    .tree-txt{
+        font-size: 6px;
+
+    }
+
+
+    .headtxt{
+        font-size: 10px;
+    }
+}
+
+
+@media screen  and (max-width:213px) {
+
+    .tree-txt{
+        font-size: 4px;
+
+    }
+
+    .m-btn{
+        font-size: 7px !important;
+
+    }
+    .v-btn2{
+      font-size: 7px !important;
+    }
+
+    .txt2{
+        font-size: 6px;
+
+    }
+    .txt3{
+        font-size: 4px;
+
+    }
+
+    .headtxt{
+        font-size: 10px;
+    }
+}
+
+@media screen  and (max-width:195px) {
+    .m-btn{
+        font-size: 5px !important;
+
+    }
+    .txt2{
+        font-size: 4px;
+
+    }
+    .txt3{
+        font-size: 2px;
+
+    }
+}
+
+@media screen  and (max-width:170px) {
+    .m-btn{
+        font-size: 2px !important;
+
+    }
+
+}

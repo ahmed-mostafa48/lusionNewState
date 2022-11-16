@@ -1,0 +1,233 @@
+.register-div , .edit-new-maindiv{
+    height: 1000px;
+}
+
+.btn-reg , .btn-edit-new{
+    width: 140px;
+}
+
+.reg-div, .edit-new-div{
+    width: 400px;
+}
+
+.groups ,.edit-new-groups{
+    width: 360px;
+}
+
+.mg-r{
+    right: 20px;
+}
+
+.edit-new-form{
+    align-items: flex-start;
+}
+
+
+
+
+@media screen and (max-width:575px){
+
+    .edit-new-div{
+        width: 300px ;
+    }
+
+    .edit-new-groups{
+        width: 210px;
+    }
+}
+
+
+@media screen and (max-width:480px){
+
+    .reg-div{
+        width: 350px;
+    }
+
+    .groups{
+        width: 300px;
+    }
+
+    .edit-new-div{
+        width: 250px ;
+    }
+
+}
+
+@media screen and (max-width:400px){
+    .edit-new-div{
+        width: 200px ;
+    }
+    .edit-new-groups{
+        width: 150px;
+    }
+
+     .edit-new-maindiv{
+        height: 1200px;
+     }
+
+     .edit-new-btns{
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+     }
+
+     .lab-new-edit{
+        font-size: 13px;
+    }
+
+    .image-txt-new-edit{
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width:380px){
+
+    .reg-div{
+        width: 300px;
+    }
+
+    .groups{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:330px){
+
+    .reg-div{
+        width: 250px;
+    }
+
+    .groups{
+        width: 200px;
+    }
+
+    .edit-new-div{
+        width: 150px ;
+    }
+    .edit-new-groups{
+        width: 100px;
+    }
+
+    .lab-new-edit{
+        font-size: 8px;
+    }
+    .edit-new-form{
+        align-items: center !important;
+
+    }
+    .image-txt-new-edit{
+        font-size: 6px !important;
+    }
+    .btn-edit-new{
+        width: 80px;
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width:270px){
+
+    .reg-div{
+        width: 220px;
+    }
+
+    .groups{
+        width: 170px;
+    }
+
+    .reg-btns{
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width:244px){
+
+    .reg-div{
+        width: 180px;
+    }
+
+    .groups{
+        width: 140px;
+    }
+
+    .reg-tx1{
+        font-size: 15px;
+    }
+
+    .reg-link1{
+        font-size: 12px;
+    }
+
+    .lab-s{
+        font-size: 13px;
+    }
+
+    
+    .edit-new-div{
+        width: 120px ;
+    }
+    .edit-new-groups{
+        width: 70px;
+    }
+
+    .head-new-edit{
+        font-size: 12px;
+    }
+    .lab{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:205px){
+
+    .reg-div{
+        width: 170px;
+    }
+
+    .groups{
+        width: 120px;
+    }
+
+    .lab-s{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:205px){
+    .edit-new-div{
+        width: 100px ;
+    }
+}
+
+@media screen and (max-width:190px){
+
+    .reg-div{
+        width: 135px;
+    }
+
+    .groups{
+        width: 120px;
+    }
+
+    .btn-reg{
+        width: 119px;
+    }
+    
+    .reg-form{
+        align-items: center !important;
+    }
+}
+
+
+
+
+
+
+
+
+

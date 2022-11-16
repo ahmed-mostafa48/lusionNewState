@@ -1,0 +1,363 @@
+{
+  "shopProducts": [
+    {
+      "id": 1,
+      "type": "Hood",
+      "price": 100,
+      "photo": "https://i.ibb.co/VBP83Fb/shopC1.jpg",
+      "count": 0,
+      "avalibale": 20,
+      "brand": "wrangler",
+      "sizes": [
+        "M",
+        "L"
+      ],
+      "colors": [
+        "College Navy",
+        "Yankees Blue",
+        "white",
+        "black"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Shirt ",
+      "price": 120,
+      "photo": "https://i.ibb.co/71SQP84/shopC2.jpg",
+      "count": 0,
+      "avalibale": 5,
+      "brand": "HUGO BOSS",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "purple & white",
+        "purple & black",
+        "YInMn Blue & black"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Shirt ",
+      "price": 150,
+      "photo": "https://i.ibb.co/vq8G5BD/shopC3.jpg",
+      "count": 0,
+      "avalibale": 14,
+      "brand": "UNIQLO",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "gray",
+        "black",
+        "red"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "shirt",
+      "price": 210,
+      "photo": "https://i.ibb.co/q1p5qfv/shopC4.jpg",
+      "count": 0,
+      "avalibale": 9,
+      "brand": "Twillory",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "purple",
+        "gray",
+        "white"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "shirt",
+      "price": 200,
+      "photo": "https://i.ibb.co/VBY2gsG/shopC5.jpg",
+      "count": 0,
+      "avalibale": 10,
+      "brand": "Rhone",
+      "sizes": [
+        "S",
+        "M",
+        "XL"
+      ],
+      "colors": [
+        "gray & black",
+        "denim & black",
+        "spruce & black",
+        "gray & white"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "shirt",
+      "price": 250,
+      "photo": "https://i.ibb.co/jWsbNfC/shopC6.jpg",
+      "count": 0,
+      "avalibale": 8,
+      "brand": "Asket",
+      "sizes": [
+        "XS",
+        "L"
+      ],
+      "colors": [
+        "black",
+        "white",
+        "aegean"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "Jeans",
+      "price": 320,
+      "photo": "https://i.ibb.co/MCWt7Lj/shopC7.jpg",
+      "count": 0,
+      "avalibale": 20,
+      "brand": "Ash & Erie",
+      "sizes": [
+        "M",
+        "L"
+      ],
+      "colors": [
+        "white",
+        "black",
+        "silver"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "Jeans",
+      "price": 350,
+      "photo": "https://i.ibb.co/0rHWQtn/shopC8.jpg",
+      "count": 0,
+      "avalibale": 7,
+      "brand": "Everlane",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Alaskan Blue",
+        "UCLA Blue",
+        "Tall Ships Blue"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "Hood",
+      "price": 105,
+      "photo": "",
+      "count": 0,
+      "avalibale": 20,
+      "brand": "Antigravity",
+      "sizes": [
+        "S",
+        "M"
+      ],
+      "colors": [
+        "mocha",
+        "spruce",
+        "inddigo",
+        "ocean"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "Jeans",
+      "price": 210,
+      "photo": "abcdefg",
+      "count": 0,
+      "avalibale": 10,
+      "brand": "Ash & Erie",
+      "sizes": [
+        "S",
+        "L"
+      ],
+      "colors": [
+        "UCLA Blue",
+        "black"
+      ]
+    }
+  ],
+  "bestSellProducts": [
+    {
+      "id": "best1",
+      "type": "Quilted Gilet With Hood",
+      "price": 150,
+      "photo": "https://i.ibb.co/tpLtyBc/t1.jpg",
+      "count": 0,
+      "avalibale": 10,
+      "brand": "Wrangler",
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "blush",
+        "rouge",
+        "white"
+      ]
+    },
+    {
+      "id": "best2",
+      "type": "Quilted Gilet With Hood",
+      "price": 110,
+      "photo": "https://i.ibb.co/3mnzWPf/t2.jpg",
+      "count": 0,
+      "avalibale": 8,
+      "brand": "Woodland",
+      "sizes": [
+        "M",
+        "L"
+      ],
+      "colors": [
+        "white & black",
+        "bronze & white"
+      ]
+    },
+    {
+      "id": "best3",
+      "type": "Quilted Gilet With Hood",
+      "price": 200,
+      "photo": "https://i.ibb.co/1vXvvF3/t3.jpg",
+      "count": 0,
+      "avalibale": 7,
+      "brand": "Reebok",
+      "sizes": [
+        "S",
+        "M"
+      ],
+      "colors": [
+        "white",
+        "gray",
+        "silver"
+      ]
+    },
+    {
+      "id": "best4",
+      "type": "Quilted Gilet With Hood",
+      "price": 250,
+      "photo": "https://i.ibb.co/n0NP282/t4.jpg",
+      "count": 0,
+      "avalibale": 4,
+      "brand": "Levi’s",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "white",
+        "black",
+        "denim"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "Name": "ahmed mostafa",
+      "email": "ahmed2@yahoo.com",
+      "userName": "ahmed-12",
+      "password": "aadddd@21",
+      "phoneNumber": "+0201234567",
+      "birthDate": "2010-02-24",
+      "gender": "Male",
+      "siteAdmin": true,
+      "image": "https://i.ibb.co/TKNG65J/default-profile-image.jpg",
+      "id": 1
+    },
+    {
+      "Name": "ali reda",
+      "email": "ali9@yahoo.com",
+      "userName": "ali-9",
+      "password": "sjsadk@@2",
+      "phoneNumber": "+2222222222",
+      "birthDate": "2011-11-07",
+      "gender": "Male",
+      "siteAdmin": false,
+      "image": "https://i.ibb.co/TKNG65J/default-profile-image.jpg",
+      "id": 2
+    },
+    {
+      "Name": "mohammed nagy",
+      "email": "sddd@yahoo.com",
+      "userName": "mohammed2",
+      "password": "sjsadk@@2",
+      "phoneNumber": "+333333333",
+      "birthDate": "2012-11-07",
+      "gender": "Male",
+      "siteAdmin": true,
+      "image": "https://i.ibb.co/TKNG65J/default-profile-image.jpg",
+      "id": 3
+    },
+    {
+      "Name": "ramy",
+      "email": "ramy@yahoo.com",
+      "userName": "ramy-9x",
+      "password": "sjsadk@@2",
+      "phoneNumber": "+444444444444",
+      "birthDate": "2002-10-20",
+      "gender": "Male",
+      "siteAdmin": false,
+      "image": "https://i.ibb.co/TKNG65J/default-profile-image.jpg",
+      "id": 4
+    },
+    {
+      "Name": "amal maher",
+      "email": "amal@yahoo.com",
+      "userName": "amal-33n",
+      "password": "sjsadk@@2",
+      "phoneNumber": "+5555555555",
+      "birthDate": "2000-02-07",
+      "gender": "Female",
+      "siteAdmin": true,
+      "image": "https://i.ibb.co/TKNG65J/default-profile-image.jpg",
+      "id": 5
+    },
+    {
+      "Name": "kamal mamdouh",
+      "email": "kamal@yahoo.com",
+      "userName": "kamal-32n",
+      "password": "sjsadk@@2",
+      "phoneNumber": "+666666666",
+      "birthDate": "1999-08-19",
+      "gender": "Male",
+      "siteAdmin": false,
+      "image": "https://i.ibb.co/TKNG65J/default-profile-image.jpg",
+      "id": 6
+    },
+    {
+      "Name": "ahmed samy",
+      "email": "ahmed2@yahoo.com",
+      "userName": "ahmed21",
+      "password": "aaaaaa12@",
+      "phoneNumber": "+1111111",
+      "birthDate": "2014-6-14",
+      "gender": "Male",
+      "siteAdmin": false,
+      "image": "https://i.ibb.co/TKNG65J/default-profile-image.jpg",
+      "id": 7
+    },
+    {
+      "Name": "asala nasri",
+      "email": "asala22@yahoo.com",
+      "userName": "asala-12b",
+      "password": "jdwww!dk2k22",
+      "phoneNumber": "+1234567821",
+      "birthDate": "2010-02-07",
+      "gender": "Female",
+      "siteAdmin": false,
+      "image": "https://i.ibb.co/TKNG65J/default-profile-image.jpg",
+      "id": 8
+    }
+  ]
+}

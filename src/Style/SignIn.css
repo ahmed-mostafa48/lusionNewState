@@ -1,0 +1,119 @@
+.sign-in-div{
+    height: 595px;
+}
+
+.log-in-div{
+    width: 400px;
+}
+
+
+
+.log-in-div{
+    width: 400px;
+}
+
+.signin-groups{
+    width: 360px;
+}
+
+.remove-shadow:focus{
+    box-shadow: none !important;
+}
+
+
+@media screen and (max-width:440px){
+
+    .log-in-div{
+        width: 350px;
+    }
+    
+    .signin-groups{
+        width: 300px;
+    }
+
+    .incorr-log-m{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:377px){
+
+    .log-in-div{
+        width: 310px;
+    }
+    
+    .signin-groups{
+        width: 260px;
+    }
+
+    .incorr-log-m{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:340px){
+
+    .log-in-div{
+        width: 270px;
+    }
+    
+    .signin-groups{
+        width: 220px;
+    }
+
+    .incorr-log-m{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:300px){
+
+    .log-in-div{
+        width: 220px;
+    }
+    
+    .signin-groups{
+        width: 170px;
+    }
+
+    .incorr-log-m{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:240px){
+
+    .log-in-div{
+        width: 190px;
+    }
+    
+    .signin-groups{
+        width: 140px;
+    }
+
+    .incorr-log-m{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:187px){
+
+    .log-in-div{
+        width: 150px;
+    }
+    
+    .signin-groups{
+        width: 120px;
+    }
+
+    .incorr-log-m{
+        font-size: 7px;
+    }
+
+    /* .signin-btn{
+        width: 120px;
+    } */
+}
+
+
+

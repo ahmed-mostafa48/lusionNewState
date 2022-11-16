@@ -1,0 +1,52 @@
+.admin-side{
+    height: 100vh;
+    
+
+}
+
+
+.td-hover:hover{
+    background-color: black !important;
+}
+
+@media screen  and (max-width:378px) {
+
+.side-links , .side-h6{
+    /* display: none !important; */
+
+    font-size: 12px !important;
+}
+
+}
+
+@media screen  and (max-width:306px) {
+    .side-links , .side-h6{   
+        font-size: 10px !important;
+    }
+    
+
+}
+
+
+@media screen  and (max-width:270px) {
+
+    .side-links , .side-h6{
+        /* display: none !important; */
+    
+        font-size: 8px !important;
+    }
+    
+    }
+
+    
+@media screen  and (max-width:235px) {
+
+    .side-h6{
+        display: none !important;
+    }
+    .side-links{   
+        font-size: 15px !important;
+    }
+    
+}
+

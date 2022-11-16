@@ -1,0 +1,239 @@
+.btn-role{
+    width: 140px;
+}
+
+.img-users{
+    width: 3rem;
+}
+.dn{
+    display: none;
+}
+
+
+.row-heads{
+    margin-right: 1.5rem!important;
+
+}
+
+@media screen  and (max-width:1030px) {
+
+    .btn-role{
+        width: 100px;
+        font-size: 11px !important;
+    }
+    
+
+}
+@media screen  and (max-width:991px) {
+
+    .btn-delete-user{
+        font-size: 10px !important;
+    }
+    
+    .btn-view-user, .btn-edit-user , .text-users{
+        font-size: 12px !important;
+
+    }
+
+}
+
+
+@media screen  and (max-width:880px) {
+
+    .btn-role{
+        width: 90px;
+        font-size: 9px !important;
+    }
+
+    .btn-delete-user{
+        font-size: 8px !important;
+
+    
+    }
+
+    .img-users{
+        width: 2rem;
+    }
+
+
+    /* .td-img-users{
+        width: 10px ;
+    } 
+
+    .text-users{
+        font-size: 8px !important;
+
+    }*/
+
+}
+
+
+@media screen  and (max-width:850px) {
+    .thead-users{
+        display: none;
+    }
+
+    .tr-users{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: ; */
+        border-bottom: 2px solid white;
+        margin-bottom: 10px;
+    }
+
+    .row-heads{
+        display: inline-block !important;
+    }
+
+    .tds-users{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .btn-role{
+        width: 120px;
+        font-size: 13px !important;
+    }
+
+    .btn-delete-user{
+        font-size: 13px !important;
+    }
+    
+    .btn-view-user, .btn-edit-user , .text-users{
+        font-size: 15px !important;
+
+    }
+}
+
+@media screen  and (max-width:600px) {
+    .message-users{
+        font-size: 15px !important;
+    }
+}
+
+@media screen  and (max-width:545px) {
+
+
+    .btn-role{
+        width: 120px;
+        font-size: 10px !important;
+    }
+
+    .btn-delete-user{
+        font-size: 10px !important;
+        width: 80px;
+
+    }
+    
+    .btn-view-user, .btn-edit-user{
+        font-size: 10px !important;
+
+    }
+        
+}
+
+@media screen  and (max-width:545px) {
+    .actions-users{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 160px;
+    } 
+
+    .btn-view-user, .btn-edit-user ,.btn-role ,.btn-delete-user{
+        width: 160px;
+        font-size: 12px !important;
+    }
+}
+
+@media screen  and (max-width:430px) {
+    .message-users{
+        font-size: 10px !important;
+    }
+}
+
+@media screen  and (max-width:340px) {
+    .text-users {
+        font-size: 11px !important;
+
+    }
+
+    .row-heads{
+        font-size: 12px !important;
+
+    }
+}
+
+@media screen  and (max-width:290px) {
+   
+    .btn-view-user, .btn-edit-user ,.btn-role ,.btn-delete-user{
+        width: 120px;
+        font-size: 10px !important;
+    }
+
+    .text-users {
+        font-size: 8px !important;
+
+    }
+
+    .row-heads{
+        font-size: 10px !important;
+
+    }
+
+    .message-users{
+        font-size: 7px !important;
+    }
+}
+
+
+@media screen  and (max-width:240px) {
+.tds-users{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: space-around;
+
+}
+
+.row-heads{
+    margin-right: 0rem!important;
+
+}
+
+.btn-add-users{
+    font-size: 10px !important;
+}
+
+}
+
+@media screen  and (max-width:225px) {
+    .tds-users{
+     align-items: flex-start !important;   
+    }
+    
+    .btn-view-user, .btn-edit-user ,.btn-role ,.btn-delete-user{
+        width: 60px;
+        font-size: 8px !important;
+        font-weight: bolder !important;
+
+    }
+    .text-users {
+        font-size: 10px !important;
+        font-weight: bolder !important;
+
+    }
+
+    .btn-add-users{
+        font-size: 8px !important;
+    }
+
+    .message-users{
+        font-size: 4px !important;
+        font-weight: bolder !important;
+
+    }
+}

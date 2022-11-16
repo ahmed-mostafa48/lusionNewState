@@ -1,0 +1,177 @@
+.tex-userview-div{
+    border: 2px dashed ;
+}
+
+.details-head-userview{
+    margin-top: -15px;
+    background-color: white;
+    width: 75%;
+    font-size: 17px;
+}
+
+
+.tex2-userview{
+    font-size: 14px;
+}
+
+@media screen  and (max-width:343px) {
+    .card-userview{
+        width: 12rem !important;
+    }
+
+    .details-head-userview{
+        font-size: 16px;
+    }
+
+    .tex2-userview{
+        font-size: 12px;
+    }
+    
+}
+
+@media screen  and (max-width:315px) {
+    .card-userview{
+        width: 11rem !important;
+    }
+    
+    .details-head-userview ,.tex-userview , .x{
+        font-size: 14px !important;
+    }
+
+    .userview-head{
+        font-size: 16px;
+    }
+
+   
+}
+
+@media screen  and (max-width:295px) {
+    .card-userview{
+        width: 9rem !important;
+    }
+    
+    .tex-userview {
+        font-size: 11px !important;
+    }
+
+    .details-head-userview{
+        font-size: 11px !important;
+        margin-top: -8px;
+    }
+
+    .tex2-userview{
+        font-size: 9px;
+    }
+
+    .tex3-userview{
+        font-size: 10px !important;
+    }
+    .tex4-userview{
+        font-size: 7px !important; 
+
+    }
+}
+
+
+@media screen  and (max-width:250px) {
+    .card-userview{
+        width: 8rem !important;
+    }
+    
+    .tex-userview{
+        font-size: 9px !important;
+        font-weight: 900;
+
+    }
+
+    .userview-head{
+        font-size: 12px;
+        font-weight: 900;
+
+    }
+    .details-head-userview{
+        font-size: 9px !important;
+    }
+    .tex2-userview{
+        font-size: 7px;
+    }
+}
+
+@media screen  and (max-width:221px) {
+    .card-userview{
+        width: 7.4rem !important;
+    }
+    
+    .tex-userview , .x{
+        font-size: 6px !important;
+        font-weight: 900;
+    }
+
+    .userview-head{
+        font-size: 8px;
+    }
+
+    .tex2-userview{
+        font-size: 6px;
+    }
+
+  
+}
+
+
+@media screen  and (max-width:205px) {
+    .card-userview{
+        width: 6.5rem !important;
+    }
+
+    .details-head-userview{
+        font-size: 7px !important;
+        margin-top: -7px;
+
+    }
+}
+
+
+@media screen  and (max-width:185px) {
+    .card-userview{
+        width: 6rem !important;
+    }
+
+    .tex2-userview{
+        font-size: 5px;
+    }
+    .tex3-userview{
+        font-size: 5px;
+    }
+
+    .tex4-userview{
+        font-size: 5px !important;
+
+    }
+}
+
+@media screen  and (max-width:171px) {
+    .card-userview{
+        width: 5rem !important;
+    }
+
+        
+    .tex-userview , .tex2-userview{
+        font-size: 4px !important;
+    }
+
+    .userview-head{
+        font-size: 6px;
+    }
+
+    .details-head-userview{
+        font-size: 5px !important;
+        margin-top: -6px;
+
+    }
+
+    .tex3-userview{
+        font-size: 5px !important;
+    }
+
+}

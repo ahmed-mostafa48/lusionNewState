@@ -1,0 +1,54 @@
+.notfound-div{
+    height: 91vh;
+}
+
+.cl{
+    color: lightgray;
+}
+
+.notfound-ic{
+    font-size: 100px !important;
+    color: lightslategrey;
+}
+
+@media screen and (max-width:371px){
+    .notfound-line2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:348px){
+    .notfound-line2{
+        font-size: 16px;
+    }
+
+    .notfound-ic{
+        font-size: 80px !important;
+    }
+}
+
+@media screen and (max-width:283px){
+    .notfound-line2{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:249px){
+    .notfound-line2{
+        font-size: 10px;
+    }
+    .notfound-line1{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:186px){
+    .notfound-line2{
+        font-size: 7px;
+        font-weight: 900;
+    }
+
+    .notfound-ic{
+        font-size: 60px !important;
+    }
+}

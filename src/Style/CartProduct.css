@@ -1,6 +1,12 @@
 .cart-ic{
     cursor: pointer;
+    padding: 3px !important;
+
 }
+
+.cart-ic-marg{
+    margin-right: 1rem !important;
+ }
 
 
 @media screen  and (max-width:173px) {
@@ -10,18 +16,56 @@
 }
 
 
-@media screen  and (max-width:195px) {
+@media screen  and (max-width:199px) {
 
-.cart-tex{
-    font-size: 12px !important;
+    .cart-tex{
+        font-size: 14px !important;
+    }
+
 }
 
-.cart-ic{
-    font-size: 14px !important;
+
+@media screen  and (max-width:205px) {
+
+    .cart-tex{
+        font-size: 12px !important;
+    }
+
+    .details-head{
+        margin-top: -10px !important;
+    }
+
 }
 
-.cart-img{
-    width: 6rem !important;
+@media screen  and (max-width:177px) {
+
+    .cart-ic-marg{
+       margin-right: 0.4rem !important;
+    }
+
 }
 
+@media screen  and (max-width:162px) {
+
+    .cart-tex{
+        font-size: 11px !important;
+    }
+
+}
+
+@media screen  and (max-width:152px) {
+    .cart-tex{
+        font-size: 10.5px !important;
+    }
+}
+
+.cart-text-div{
+    border: 2px dashed ;
+}
+
+.details-head{
+    margin-top: -15px;
+    background-color: white;
+    width: 75%;
+    font-size: 17px;
 }

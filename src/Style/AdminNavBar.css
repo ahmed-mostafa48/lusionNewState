@@ -1,0 +1,5 @@
+@media screen  and (max-width:575px) {
+    .brand-adm{
+        margin-top: -24px !important;
+    }
+}

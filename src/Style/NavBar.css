@@ -1,9 +1,9 @@
 
 
 .mg{
-    margin-left: 19px;
+    margin-left: 25px;
     width: 29px;
-    margin-bottom: -2px;
+    margin-bottom: -11px;
     /* text-align: center !important; */
 }
 
@@ -13,17 +13,93 @@
 }
 
 
+.qm{
+    display: none !important;
+
+}
 
 
-@media screen and (max-width :576px){
+/* @media screen and (max-width :576px){
     .w{
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
+    .ww{
+        margin-top: 10px;
+    }
+} */
+
+@media screen and (max-width :575px){
+    .w{
+        /* margin-top: 10px; */
+        margin-bottom: 10px;
+    }
+
+    .r{
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+    .qm{
+        display: flex !important;
+
+    }
+}
+
+.color{
+    background-color:  black;
+}
+
+
+.navbar-link:active{
+    color: white !important;
+}
+
+.navbar-link:hover{
+    color: white !important;
+
 }
 
 
 
-.color{
-    background-color:  black;
+.drop{
+    background-color: black !important;
+    cursor: default !important;
+
+}
+
+.cll{
+    color: teal !important;
+    cursor: default !important;
+
+}
+
+
+.pointer:hover{
+    cursor: pointer !important;
+    color: white !important;
+
+}
+
+.pointer:active{
+    color: white !important;
+
+}
+
+
+@media screen and (max-width :575px){
+    .nav-s{
+        flex-direction: column-reverse !important;
+    }
+
+}
+
+.cart-ic{
+    color: thistle !important;
+}
+
+.cart-ic:hover{
+    color: white !important;
+    border-color: azure !important;
 }

@@ -1,0 +1,156 @@
+
+
+.img-products{
+    width: 3rem;
+}
+.dn{
+    display: none;
+}
+
+.centerItems-products{
+    height: 70px;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.row-heads-products{
+    margin-right: 1.5rem!important;
+
+}
+
+
+
+@media screen  and (max-width:850px) {
+    .thead-products{
+        display: none;
+    }
+
+    .tr-products{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px solid white;
+        margin-bottom: 10px;
+    }
+
+    .row-heads-products{
+        display: inline-block !important;
+    }
+
+    .tds-products{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .centerItems-products{
+        flex-direction: row !important;
+    }
+
+    
+    .text-products{
+        font-size: 15px !important;
+
+    }
+
+    .btns-products{
+        width: 140px;
+    }
+}
+
+@media screen  and (max-width:610px) {
+
+    .btns-products{
+        width: 100px;
+    }
+}
+
+
+@media screen  and (max-width:600px) {
+    .message-products{
+        font-size: 15px !important;
+    }
+}
+
+
+/* 
+@media screen  and (max-width:545px) {
+    .actions-products{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 160px;
+    } 
+} */
+
+@media screen  and (max-width:505px) {
+/* 
+    .actions-products{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly !important;
+        align-items: center;
+        height: 300px;
+    } 
+    .x{
+        height: 200px;
+    } */
+
+    .actions-products-height{
+        height: 140px;
+
+    }
+    .actions-products-direction{
+        flex-direction: column;
+        height: 140px;
+    }
+    .btns-products{
+        width: 80% !important;
+    }
+    
+    .btns-products2{
+        width: 100% !important;
+    }
+}
+
+@media screen  and (max-width:345px) {
+    .row-heads-products {
+        font-size: 12px !important;
+    }
+}
+
+@media screen  and (max-width:295px) {
+    .row-heads-products {
+        display: none !important;
+    }
+}
+
+@media screen  and (max-width:260px) {
+
+    .btn-add-products{
+        font-size: 11px !important;
+    }
+}
+
+
+@media screen  and (max-width:200px) {
+
+    .btn-add-products{
+        font-size: 9px !important;
+    }
+}
+@media screen  and (max-width:175px) {
+
+    .btn-add-products{
+        font-size: 6px !important;
+    }
+
+    .btns-products{
+        font-size: 10px !important;
+    }
+}
+

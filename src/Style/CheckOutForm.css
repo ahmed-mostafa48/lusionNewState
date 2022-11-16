@@ -1,0 +1,176 @@
+.checkout-form{
+    width : 450px ;
+}
+
+.credit-items{
+    width : 30%
+}
+
+.card-items-labels-w{
+    font-size: 13px;
+}
+
+@media screen  and (max-width:470px) {
+
+    .checkout-form{
+        width : 400px ;
+    }
+
+    .card-items-labels-w{
+        font-size: 10px;
+    }
+
+    .card-items-labels{
+        font-size: 12px;
+    }
+
+}
+
+@media screen  and (max-width:420px) {
+
+    .checkout-form{
+        width : 370px ;
+    }
+
+}
+
+@media screen  and (max-width:390px) {
+
+    .checkout-form{
+        width : 320px ;
+    }
+
+
+    .credit-items-div{
+        flex-direction: column;
+    }
+    .credit-items{
+        width : 100%
+    }
+    
+    .card-items-labels-w{
+        font-size: 12px;
+    }
+
+    .cardnumber-label{
+        font-size: 14px;
+    }
+}
+
+@media screen  and (max-width:340px) {
+    .checkout-form{
+        width : 300px ;
+    }
+    .address-label{
+        font-size: 14px;
+
+    }
+
+}
+
+@media screen  and (max-width:320px) {
+    .checkout-form{
+        width : 250px ;
+    }
+
+    .cardnumber-head{
+        font-size: 16;
+    }
+
+}
+
+@media screen  and (max-width:270px) {
+    .checkout-form{
+        width : 200px ;
+    }
+
+    .paytype-label{
+        font-size: 12px;
+
+    }
+
+    .pay-message{
+        font-size: 12px;
+
+    }
+}
+
+@media screen  and (max-width:220px) {
+    .checkout-form{
+        width : 180px ;
+    }
+
+    .paytype-label{
+        font-size: 12px;
+
+    }
+
+    .paytype-div{
+        flex-direction: column;
+    }
+    .visa-group{
+        margin-left: 1rem;
+
+    }
+    .cardnumber-label{
+        font-size: 10px;
+    }
+
+    .cardnumber-head{
+        font-size: 12px;
+    }
+
+    .bay-btn-form{
+        font-size: 12px !important;
+
+    }
+
+}
+
+
+@media screen  and (max-width:200px) {
+    .checkout-form{
+        width : 150px ;
+    }
+
+
+    .cardnumber-head{
+        font-size: 10px;
+    }
+}
+
+@media screen  and (max-width:170px) {
+    .checkout-form{
+        width : 120px ;
+    }
+
+
+    .cardnumber-head{
+        font-size: 6px;
+    }
+    .cardnumber-label{
+        font-size: 7px;
+    }
+    .card-items-labels-w , .card-items-labels{
+        font-size: 8px;
+    }
+    .address-label{
+        font-size: 10px;
+
+    }
+    .paytype-head{
+        font-size: 12px;
+
+    }
+
+    .paytype-label{
+        font-size: 9px;
+
+    }
+
+    .bay-btn-form{
+        font-size: 8px !important;
+
+    }
+}
+
